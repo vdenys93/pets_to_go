@@ -1,0 +1,111 @@
+/*Author: Viktoriia Denys
+ Date: 05/05/2021
+ CSS styling for  PTG site*/
+ 
+@font-face {
+    font-family: 'action_manbold_italic';
+    src: url('../fonts/Action_Man_Bold_Italic-webfont.eot');
+    src: url('../fonts/Action_Man_Bold_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Action_Man_Bold_Italic-webfont.woff2') format('woff2'),
+         url('../fonts/Action_Man_Bold_Italic-webfont.woff') format('woff'),
+         url('../fonts/Action_Man_Bold_Italic-webfont.ttf') format('truetype'),
+         url('../fonts/Action_Man_Bold_Italic-webfont.svg#action_manbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.container
+{
+	background-color:white;
+	
+	
+}
+nav a:link 
+{
+	color:black;
+	text-decoration:none;
+}
+nav a:visited 
+{
+	color:black;
+	text-decoration:none;
+}
+
+
+
+	 
+
+ body{
+		 font-family: Georgia, serif;
+		 background-image: url("../images/background.jpg")
+	 
+     }
+ h1  {
+	
+	 color:brown;
+	 text-align: center;
+	 font-family: 'Knewave', cursive;
+	
+	 
+ }
+ h2, h3 {
+	 font-family: 'action_manbold_italic';
+     color:#b35900;
+	 
+	 padding:8px;
+	margin-right:16px;
+	
+	
+   	 
+ }
+ 
+ ul li {
+	 color:#660000;
+	 list-style-position: inside;
+ }
+ ul li a {
+	 color: brown;
+	 
+ }
+
+
+
+ footer
+ {
+	text-align: center; 
+	border-top: 5px dotted black;
+	margin-top: 0.5em;
+	font-size:0.95em;
+	
+ }
+ 
+ .thick {
+	 font-weight:bold;
+	 font-style:oblique;
+ }
+ 
+h1.uppercase {
+  text-transform: uppercase;
+}
+
+p span.greenbold {
+	 color:green;
+	 font-weight:bold;
+	 font-style:italic;
+ }
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+
+
+h3::first-letter {
+  font-size: xx-large;
+  font-style:italic;
+ }
